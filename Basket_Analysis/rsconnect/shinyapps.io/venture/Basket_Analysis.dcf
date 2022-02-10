@@ -1,0 +1,13 @@
+name: Basket_Analysis
+title: Basket_Analysis
+username:
+account: venture
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4624179
+bundleId: 5145631
+url: https://venture.shinyapps.io/Basket_Analysis/
+when: 1634406947.56978
+lastSyncTime: 1634406947.56978
+asMultiple: FALSE
+asStatic: FALSE
