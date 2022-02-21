@@ -5,6 +5,7 @@ library(tidyverse)
 library(arulesViz)
 library(arules)
 library(plotly)
+library(dashboardthemes)
 
 # Loading the files
 groceries<-read.transactions('groceries.csv',sep=',')
@@ -26,6 +27,7 @@ UI<-dashboardPage(
         
     )),
     dashboardBody(
+      shinyDashboardThemes(theme = "grey_dark"),
         tabItems(
             tabItem(tabName = "items",
                     h3("Select the item that has been bought.   
