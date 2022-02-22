@@ -13,11 +13,13 @@ items<-c("whole milk","other vegetables","rolls/buns","soda","yogurt","bottled w
 
 
 # creating the UI
-UI<-dashboardPage(
+UI<-dashboardPage(skin="red",
     dashboardHeader(title="Basket Analysis",titleWidth = 800),
     dashboardSidebar(
         sidebarMenu(id="sidebarid",
-        menuItem("Associated Items",tabName = "items",icon = icon("shopping-cart")),
+        menuItem("Associated Items",tabName = "items",icon = icon("shopping-cart",
+                                                                  class="fa-spin")
+                  ),
         conditionalPanel(condition = "input.sidebarid=='items'",
                          sliderInput("num","Select the number of  items to view",
                                      min = 5,max = 20,step = 1,value = 10),

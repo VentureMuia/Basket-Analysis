@@ -5,9 +5,9 @@ account: venture
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 4624179
-bundleId: 5145631
+bundleId: 5600744
 url: https://venture.shinyapps.io/Basket_Analysis/
-when: 1634406947.56978
-lastSyncTime: 1634406947.56978
+when: 1645424037.0976
+lastSyncTime: 1645424037.0976
 asMultiple: FALSE
 asStatic: FALSE
